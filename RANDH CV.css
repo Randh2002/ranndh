@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.header {
+    background-color: hsla(54,21%,74%,1.00);
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0px 0px 0px;
+    background-size: 312px 241px;
+    border: thick double hsla(0,0%,23%,1.00);
+    border-top-left-radius: 0px;
+    width: 2017px;
+    height: 47px;
+    color: hsla(80,33%,29%,1.00);
+    font-size: xx-large;
+    font-style: normal;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-clip: border-box;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.main {
+    background-color: hsla(358,86%,94%,1.00);
+    width: 2020px;
+    height: 388px;
+    text-align: center;
+    font-weight: normal;
+    font-size: x-large;
+    color: hsla(42,20%,36%,1.00);
+    top: 0px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    border: medium solid hsla(40,2%,24%,1.00);
+    line-height: normal;
+    text-transform: capitalize;
+    list-style-position: outside;
+}
+.footer {
+    width: 2020px;
+    height: 68px;
+    color: hsla(48,29%,26%,1.00);
+    text-align: center;
+    border-width: medium;
+    margin-top: 76px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    background-color: hsla(53,20%,75%,1.00);
+}
+video {
+    margin-left: 958px;
+    width: 796px;
+}
+iframe {
+    padding-left: 1285px;
+    padding-bottom: 0px;
+    padding-right: 180px;
+}
+
+@media screen and (max-width:2000px) and (min-width:1000px){ 
+	
+	body {
+		background-color:antiquewhite;}
+}
